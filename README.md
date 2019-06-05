@@ -6,6 +6,7 @@ misc scripts and tools
 
 # Useful commands:
 
+## Find files in a git repo that has been changed the most.
 To find which files have been changed the most in a git repo the command under can be used:
 
 **On windows:**
@@ -19,4 +20,12 @@ git log --pretty=format: --name-only | sort | uniq -c | sort -rg | head -10
 ```
 
 The files that have been changed the most can give an indication that something is wierd with those files.
+
+## Find self signed certificate that is invalidating the local certificate store.
+
+This powershell command will output the certificate that can cause the local certificate store to be invalidated.
+A text file will be created called `c:\computer_filtered`. If this file is empty everything should be _ok_. 
+```
+Get-Childitem cert:\LocalMachine\root -Recurse | Where-Object {$_.Issuer -ne $_.Subject} | Format-List * | Out-File "c:\computer_filtered.txt"
+```
 
