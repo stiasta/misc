@@ -29,3 +29,10 @@ A text file will be created called `c:\computer_filtered`. If this file is empty
 Get-Childitem cert:\LocalMachine\root -Recurse | Where-Object {$_.Issuer -ne $_.Subject} | Format-List * | Out-File "c:\computer_filtered.txt"
 ```
 
+## Updating one or more nuget packages in a C# Solution
+
+To run this powershell command  you have to open _Package Manager Console_ from visual studio and run this command:
+
+```
+(PackageName1, PackageName2, PackageName3) | ForEach-Object { Get-Package $_ } | ForEach-Object { Update-Package -id $_.id -ProjectName $_.projectname }
+```
