@@ -1,4 +1,4 @@
-REM Chocolatey batch script for å installere de mest viktige tingene for min jobb-pc
+REM Chocolatey batch script to install the most important software
 REM Laget av Stian Standahl
 
 ECHO Chocolatey batch script.
@@ -13,20 +13,18 @@ ECHO Installing apps.
 
 cinst git.install
 cinst git.commandline
-cinst notepadplusplus.install
+cinst cmder
+
 cinst 7zip.install
 cinst GoogleChrome
-cinst Firefox
-cinst adobereader
-cinst javaruntime
-cinst fiddler4
-cinst dropbox
-cinst DotNet4.0
-cinst DotNet4.5
-cinst vcredist2010
 cinst spotify
-cinst procmon
-cinst NugetPackageManager
-cinst VisualStudio2012Premium
-cinst adpnetmvc.install
-cinst MsSqlServer2012Express
+
+choco install docker-desktop
+
+choco install vscode
+code --install-extension visualstudioexptteam.vscodeintellicode
+code --install-extension ms-python.python
+code --install-extension vscjava.vscode-java-pack
+code --install-extension johnpapa.winteriscoming
+code --install-extension ms-azuretools.vscode-docker
+
