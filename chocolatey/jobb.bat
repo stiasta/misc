@@ -24,7 +24,12 @@ choco install docker-desktop
 choco install vscode
 code --install-extension visualstudioexptteam.vscodeintellicode
 code --install-extension ms-python.python
+
 code --install-extension vscjava.vscode-java-pack
+code --isntall-extension redhat.vscode-xml
+
 code --install-extension johnpapa.winteriscoming
 code --install-extension ms-azuretools.vscode-docker
+
+
 
