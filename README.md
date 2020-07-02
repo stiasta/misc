@@ -2,7 +2,7 @@ misc
 ====
 
 misc scripts and tools
-
+Setting up java: Go here https://github.com/stiasta/misc/edit/master/java_setup.md
 
 # Useful commands:
 
