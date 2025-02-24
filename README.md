@@ -3,8 +3,9 @@
 A collection of scripts and text files that installs, sets up dev environment and information of files and code snippets.
 
 ## Set up dev env
-- [Setting up windows machine](https://github.com/stiasta/misc/blob/master/setup_dev_windows.ps1)
-- [Setting up java](https://github.com/stiasta/misc/blob/master/java_setup.md)
+- [Setting up windows machine](https://github.com/stiasta/misc/blob/main/setup_dev_windows.ps1)
+- [Setting up java](https://github.com/stiasta/misc/blob/main/java_setup.md)
+- [Setting up aliases](https://github.com/stiasta/misc/blob/main/alias.md)
 
 ## Useful commands:
 
