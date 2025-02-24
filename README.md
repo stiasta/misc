@@ -1,5 +1,4 @@
 # Misc
-====
 
 A collection of scripts and text files that installs, sets up dev environment and information of files and code snippets.
 
