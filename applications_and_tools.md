@@ -4,6 +4,7 @@
 - https://testers.ai/
 - https://testsigma.com/
 - Puppeteer - [https://pptr.dev/](https://pptr.dev/)
+- http://testgennie.com/
 
 ## AI
 - Github Copilot
