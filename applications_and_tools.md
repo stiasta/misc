@@ -18,7 +18,13 @@
 - VS Code
 - 
 
-# Programming
-## .NET Libraries
+## Terminals
+- Windows terminal
+- cmder 
+- [Warp](https://github.com/warpdotdev/Warp)
+  - Terminal that has AI built in. Pushes you towards having a user
+
+## Programming
+### .NET Libraries
 - [language-ext](https://github.com/louthy/language-ext)
   - Will be replaced by [Type unions](https://github.com/dotnet/csharplang/blob/18a527bcc1f0bdaf542d8b9a189c50068615b439/proposals/TypeUnions.md) that is a proposal in C# language
