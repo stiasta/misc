@@ -104,7 +104,8 @@ InstallWithWinget "Microsoft.Office"
 InstallWithWinget "Microsoft.Teams"
 InstallWithWinget "Sysinternals Suite"
 InstallWithWinget "Postman.Postman"
-InstallWithWinget "Brave.Brave"
+# InstallWithWinget "Brave.Brave"
+InstallWithWinget "VivaldiTechnologies.Vivaldi"
 DownloadAndUnzip -url "https://github.com/cmderdev/cmder/releases/download/v1.3.25/cmder.zip" -destination "C:\work\cmder"
 InitCmder
 choco install 3rvx --yes
