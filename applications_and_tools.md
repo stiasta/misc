@@ -17,3 +17,7 @@
 ## IDE and code editors
 - VS Code
 - 
+
+# Programming
+## .NET Libraries
+- [language-ext](https://github.com/louthy/language-ext)
