@@ -21,3 +21,4 @@
 # Programming
 ## .NET Libraries
 - [language-ext](https://github.com/louthy/language-ext)
+  - Will be replaced by [Type unions](https://github.com/dotnet/csharplang/blob/18a527bcc1f0bdaf542d8b9a189c50068615b439/proposals/TypeUnions.md) that is a proposal in C# language
